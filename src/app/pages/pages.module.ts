@@ -15,6 +15,7 @@ import { FormsModule } from '@angular/forms';
 
 // ng2-charts graficas
 import { ChartsModule } from 'ng2-charts';
+import { AccountSettingsComponent } from './account-settings/account-settings.component';
 
 
 @NgModule({
@@ -24,7 +25,8 @@ import { ChartsModule } from 'ng2-charts';
     ProgressComponent,
     Graficas1Component,
     IncrementadorComponent,
-    GraficoDonaComponent
+    GraficoDonaComponent,
+    AccountSettingsComponent
   ],
   imports: [
     SharedModule,
@@ -37,7 +39,8 @@ import { ChartsModule } from 'ng2-charts';
     PagesComponent,
     DashboardComponent,
     ProgressComponent,
-    Graficas1Component
+    Graficas1Component,
+    AccountSettingsComponent
   ]
 })
 export class PagesModule {}

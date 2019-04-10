@@ -16,6 +16,11 @@ import { RegisterComponent } from './login/register.component';
 // import { GraficoDonaComponent } from './components/grafico-dona/grafico-dona.component';
 // import { IncrementadorComponent } from './components/incrementador/incrementador.component';
 
+// Servicios
+import { ServiceModule } from './services/service.module';
+// import { SettingsService } from './services/service.index';
+
+
 
 @NgModule({
   declarations: [
@@ -29,11 +34,13 @@ import { RegisterComponent } from './login/register.component';
     BrowserModule,
     APP_ROUTES,
     FormsModule,
-    PagesModule
+    PagesModule,
+    ServiceModule
   ],
   exports: [
   ],
-  providers: [],
+  providers: [
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
