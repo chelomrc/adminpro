@@ -1,4 +1,4 @@
-import { FormsModule } from '@angular/forms';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
 import { PagesModule } from './pages/pages.module';
 
@@ -34,6 +34,7 @@ import { ServiceModule } from './services/service.module';
     BrowserModule,
     APP_ROUTES,
     FormsModule,
+    ReactiveFormsModule,
     PagesModule,
     ServiceModule
   ],

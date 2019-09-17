@@ -19,7 +19,7 @@ export class BreadcrumbsComponent implements OnInit {
 
       this.titulo = data.titulo;
       this.tittle.setTitle( this.titulo );
-      console.log( this.titulo );
+      // console.log( this.titulo );
 
       // console.log(event.snapshot.data);
 
